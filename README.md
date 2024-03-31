@@ -1,6 +1,7 @@
 # GroupProject
 
 Contribution Guideline:
+
 Figma:
 - Fan Zhu
 - Liban

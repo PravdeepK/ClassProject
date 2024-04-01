@@ -7,6 +7,6 @@ Figma:
 - Freddy Kawanishi
 
 Github/Coding:
-- Pravdeep Kullar
+- Pravdeep Kullar Hello
 - Liban Abdulle
 - Tracy Mcgrady

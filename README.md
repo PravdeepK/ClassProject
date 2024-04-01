@@ -4,9 +4,9 @@ Contribution Guideline:
 
 Figma:
 - Fan Zhu
-- Liban
+- Freddy Kawanishi
 
 Github/Coding:
 - Pravdeep Kullar
-- Freddy Kawanishi
+- Liban Abdulle
 - Tracy Mcgrady

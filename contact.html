@@ -5,16 +5,16 @@
     <link rel="stylesheet" href="styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Games Hub</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="icon" href="./src/gamecontroller.ico" type="image/x-icon">
 </head>
-
+<body>
 <header>
     <div id="logo">
         <a href="home.html">
             <img src="./src/gamecontroller.ico" alt="Clickable Image">
         </a>
     </div>
-
     <h1>Contact US</h1>
 </header>
 <nav>
@@ -26,3 +26,48 @@
         <li><a href="contact.html">Contact Us</a></li>
     </ul>
 </nav>
+<main>
+    <section class="map">
+        <h1>Global Expansion of Games Hub.</h1>
+        <p>Games Hub is active in numerous cities around the world, boasting branches and vibrant customer communities.</p>
+    </section>
+
+    <section class="contact-form my-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-center mb-4">Say hello</h2>
+                </div>
+                <div class="col-md-8 mx-auto">
+                    <form action="submit_form.php" method="post">
+                        <div class="row">
+                            <div class="col-sm-6 form-group">
+                                <label for="first_name">First Name</label>
+                                <input type="text" class="form-control" id="first_name" name="first_name" required>
+                            </div>
+                            <div class="col-sm-6 form-group">
+                                <label for="last_name">Last Name</label>
+                                <input type="text" class="form-control" id="last_name" name="last_name" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                        </div>
+                        <div class="form-group text-right">
+                            <button type="submit" class="btn btn-primary">Get in touch</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.9.9/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

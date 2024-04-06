@@ -4,37 +4,45 @@ body {
     padding: 0;
     background-color: #f0f0f0;
 }
+
 header {
     background-color: #333;
     color: #fff;
     padding: 10px 0;
     text-align: center;
 }
+
 nav {
     background-color: #444;
     padding: 10px;
 }
+
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     text-align: center;
 }
+
 nav ul li {
     display: inline;
     margin-right: 10px;
 }
+
 nav ul li a {
     color: #fff;
     text-decoration: none;
 }
+
 nav ul li a:hover {
     text-decoration: underline;
 }
+
 section {
     padding: 20px;
     text-align: center;
 }
+
 footer {
     background-color: #333;
     color: #fff;
@@ -45,8 +53,248 @@ footer {
     width: 100%;
 }
 
-#logo{
+#logo {
     width: 0%;
     height: 50%;
     size: 10%;
+}
+
+/* News page styles */
+
+.container-body {
+    background: linear-gradient(180deg, #190518 0%, rgb(25, 5, 24) 100%);
+}
+
+.container-game {
+    display: grid;
+    gap: 20px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    grid-row-gap: 20px;
+}
+
+.subTitle {
+    font-size: 1.2rem;
+}
+
+.row {
+    justify-content: space-around;
+    grid-row-gap: 30px;
+    margin-bottom: 10px;
+}
+
+.card-game {
+    display: grid;
+    position: relative;
+    height: 200px;
+    width: 150px;
+}
+
+.card-game .face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    overflow: hidden;
+    transition: .5s;
+    border-radius: 10px;
+}
+
+.card-game .front {
+    transform: perspective(600px) rotateY(0deg);
+}
+
+.card-game .front img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-game .back {
+    display: grid;
+    transform: perspective(600px) rotateY(180deg);
+    background: rgb(21, 21, 21);
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+
+.card-game:hover .front {
+    transform: perspective(600px) rotateY(180deg);
+}
+
+.card-game:hover .back {
+    transform: perspective(600px) rotateY(360deg);
+}
+
+.container-event {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+.card-event {
+    height: auto;
+    width: 250px;
+}
+
+#cardBox {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.card-event {
+    background: linear-gradient(180deg, #190518 0%, rgb(25, 5, 24) 100%);
+}
+
+.title {
+    color: white;
+    margin-left: 10px;
+    padding-top: 40px;
+}
+
+.marTop-10 {
+    margin-top: 10px;
+}
+
+.card-body {
+    margin-top: 20px;
+}
+
+.titleUp {
+    border-bottom: 2px solid white;
+    color: white;
+}
+
+.cardText {
+    color: white;
+    width: 280px;
+}
+
+.imgTour {
+    height: 400px;
+    width: 500px;
+
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.alldBtn {
+    width: 250px;
+    height: 40px;
+    background-color: #EA103C;
+    border-radius: 40px;
+    padding: 10px 30px;
+    border: none;
+    color: white;
+    line-height: 5px;
+}
+
+.alldBtn:hover {
+    background-color: grey;
+}
+
+.readBtn {
+    width: 170px;
+    height: 40px;
+    background-color: #EA103C;
+    border-radius: 40px;
+    padding: 10px;
+    border: none;
+    color: white;
+    line-height: 5px;
+    margin-left: -10px;
+}
+
+.readBtn:hover {
+    background-color: grey;
+}
+
+.icon {
+    fill: white;
+}
+
+.card {
+    height: 500px;
+}
+
+.match {
+    color: grey;
+}
+
+.vibrate-1 {
+    -webkit-animation: vibrate-1 0.3s linear infinite both;
+    animation: vibrate-1 0.3s linear infinite both;
+}
+
+@-webkit-keyframes vibrate-1 {
+    0% {
+        -webkit-transform: translate(0);
+        transform: translate(0);
+    }
+
+    20% {
+        -webkit-transform: translate(-2px, 2px);
+        transform: translate(-2px, 2px);
+    }
+
+    40% {
+        -webkit-transform: translate(-2px, -2px);
+        transform: translate(-2px, -2px);
+    }
+
+    60% {
+        -webkit-transform: translate(2px, 2px);
+        transform: translate(2px, 2px);
+    }
+
+    80% {
+        -webkit-transform: translate(2px, -2px);
+        transform: translate(2px, -2px);
+    }
+
+    100% {
+        -webkit-transform: translate(0);
+        transform: translate(0);
+    }
+}
+
+@keyframes vibrate-1 {
+    0% {
+        -webkit-transform: translate(0);
+        transform: translate(0);
+    }
+
+    20% {
+        -webkit-transform: translate(-2px, 2px);
+        transform: translate(-2px, 2px);
+    }
+
+    40% {
+        -webkit-transform: translate(-2px, -2px);
+        transform: translate(-2px, -2px);
+    }
+
+    60% {
+        -webkit-transform: translate(2px, 2px);
+        transform: translate(2px, 2px);
+    }
+
+    80% {
+        -webkit-transform: translate(2px, -2px);
+        transform: translate(2px, -2px);
+    }
+
+    100% {
+        -webkit-transform: translate(0);
+        transform: translate(0);
+    }
 }

@@ -231,6 +231,67 @@ img {
     color: grey;
 }
 
+.gamepop {
+    width: 60%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.832);
+    backdrop-filter: blur(10px);
+    padding: 20px 20px;
+    min-height: 250px;
+    border-radius: 20px;
+    position: absolute;
+    left: 60;
+    top: 90%;
+    color: white;
+    display: none;
+    z-index: 999;
+}
+
+#closepop1 {
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+}
+
+#closepop2 {
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+}
+
+#closepop3 {
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+}
+
+.imgpop {
+    padding-top: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid white;
+    margin: 20px;
+}
+
+table th,
+td {
+    border: 1px solid white;
+    padding: 8px;
+    text-align: left;
+}
+
+table td {
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    width: 500px;
+}
+
+th {
+    background-color: #EA103C;
+}
+
 .vibrate-1 {
     -webkit-animation: vibrate-1 0.3s linear infinite both;
     animation: vibrate-1 0.3s linear infinite both;

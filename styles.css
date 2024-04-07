@@ -584,16 +584,19 @@ th {
 
 
 .contact-form button.btn {
-    background-color: #D5224E;
+    background-color: #EA103C;
     border: none;
     padding: 10px 20px;
     border-radius: 10px;
     transition: background-color 0.3s ease;
+    border-radius: 40px;
+    width: 170px;
+    height: 40px;
+    line-height: 5px;
 }
 
 
 .contact-form button.btn:hover {
-    background-color: #cc0055;
     background-color: #cc0055;
     cursor: pointer;
 }

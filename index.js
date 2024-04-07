@@ -45,6 +45,18 @@ function close3() {
 }
 
 //contact code
+function validateEmail() {
+    var email = document.getElementById("email").value;
+    var pattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!pattern.test(email)) {
+        alert("Please enter a valid email address.");
+        return false;
+    }
+    return true;
+}
+    document.addEventListener("DOMContentLoaded", function() {
+        document.querySelector("h1").style.color = "blue";
+    });
 
 
 

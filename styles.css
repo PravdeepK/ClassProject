@@ -79,7 +79,7 @@ footer {
     color: white;
     cursor: pointer;
     transition: background-color 0.3s;
-    margin-bottom: 10px; /* Added margin for spacing */
+    margin-bottom: 10px;
 }
 
 #download-app:hover {
@@ -89,19 +89,24 @@ footer {
 .payment-methods {
     display: flex;
     align-items: center;
+    justify-content: left;
 }
 
 .payment-methods span {
     margin-right: 10px;
 }
 
-.payment-methods img {
+.payment {
+    width: 40px;
+    height: auto;
     margin-left: 10px;
+    display: inline-block;
 }
+
 
 .footer-links {
     display: flex;
-    justify-content: flex-end; /* Align links to the right */
+    justify-content: flex-end;
 }
 
 .links-column {
@@ -116,7 +121,7 @@ footer {
 }
 
 .footer-bottom {
-    text-align: right; /* Align text to the right */
+    text-align: right;
     margin-top: 20px;
 }
 

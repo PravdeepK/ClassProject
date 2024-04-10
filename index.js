@@ -45,18 +45,34 @@ function close3() {
 }
 
 //contact code
+
 function validateEmail() {
     var email = document.getElementById("email").value;
     var pattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    console.log("Validating email:", email);
     if (!pattern.test(email)) {
+        console.log("Invalid email");
         alert("Please enter a valid email address.");
         return false;
     }
+    console.log("Valid email");
     return true;
 }
-    document.addEventListener("DOMContentLoaded", function() {
-        document.querySelector("h1").style.color = "blue";
+
+document.addEventListener("DOMContentLoaded", function() {
+    document.querySelector("h1").style.color = "blue";
+
+    document.getElementById('contactForm').addEventListener('submit', function(event) {
+        event.preventDefault();
+        console.log("Form submitted");
+        if (validateEmail()) {
+            console.log("Showing success alert");
+            alert("Submitted successfully!");
+        } else {
+            console.log("Showing error alert");
+        }
     });
+});
 
 
 

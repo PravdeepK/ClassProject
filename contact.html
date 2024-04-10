@@ -33,7 +33,9 @@
             <h1>Global Expansion of Games Hub.</h1>
             <p>Games Hub is active in numerous cities around the world, boasting branches and vibrant customer
                 communities.</p>
+        <div id="map">
             <img class="contact-img" src="./images/map.gif" alt="map">
+        </div>
         </section>
         <section class="contact-form my-5">
             <div class="container">
@@ -42,7 +44,7 @@
                         <h2 class="text-center mb-4">Say hello</h2>
                     </div>
                     <div class="col-md-8 mx-auto">
-                        <form action="submit_form.php" method="post" onsubmit="return validateEmail()">
+                        <form id="contactForm" method="post" onsubmit="return validateEmail()">
                             <div class="row">
                                 <div class="col-sm-6 form-group">
                                     <label for="first_name">First Name</label>

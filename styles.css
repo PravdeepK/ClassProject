@@ -12,6 +12,10 @@ header {
     text-align: center;
 }
 
+nav ul li a.active {
+    color: red;
+}
+
 nav {
     background-color: #444;
     padding: 10px;

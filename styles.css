@@ -73,8 +73,12 @@ header {
     text-align: center;
 }
 
-nav ul li a.active {
-    color: red;
+nav {
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure the navigation stays on top */
 }
 
 nav {

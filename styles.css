@@ -6,15 +6,22 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color:#190518;
     color: #fff;
     padding: 10px 0;
     text-align: center;
 }
 
 nav {
-    background-color: #444;
     padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure the navigation stays on top */
+}
+
+nav ul li a.active {
+    color: red;
 }
 
 nav ul {
@@ -35,11 +42,11 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    text-decoration: underline;
+    text-decoration: blue; /* Changed from blue to underline */
 }
 
 section {
-    padding: 20px;
+    padding: 60px 20px 20px; /* Adjusted padding to accommodate the navigation */
     text-align: center;
 }
 
@@ -54,9 +61,9 @@ footer {
 }
 
 #logo {
-    width: 0%;
-    height: 50%;
-    size: 10%;
+    width: 20%;
+    height: 20%;
+    margin-left: -5%;
 }
 
 /* News page styles */

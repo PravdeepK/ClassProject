@@ -73,6 +73,10 @@ header {
     text-align: center;
 }
 
+nav ul li a.active {
+    color: red;
+}
+
 nav {
     margin-top: -50px;
     padding: 10px;

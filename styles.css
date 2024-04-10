@@ -50,21 +50,76 @@ section {
     text-align: center;
 }
 
-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
 
 #logo {
     width: 20%;
     height: 20%;
     margin-left: -5%;
 }
+
+
+footer {
+    background-color: #1A1A1A;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-left,
+.footer-right {
+    display: flex;
+    flex-direction: column;
+}
+
+#download-app {
+    background-color: #E53E3E;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 10px; /* Added margin for spacing */
+}
+
+#download-app:hover {
+    background-color: #C53030;
+}
+
+.payment-methods {
+    display: flex;
+    align-items: center;
+}
+
+.payment-methods span {
+    margin-right: 10px;
+}
+
+.payment-methods img {
+    margin-left: 10px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: flex-end; /* Align links to the right */
+}
+
+.links-column {
+    margin-right: 20px;
+}
+
+.links-column a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin: 5px 0;
+}
+
+.footer-bottom {
+    text-align: right; /* Align text to the right */
+    margin-top: 20px;
+}
+
 
 /* News page styles */
 

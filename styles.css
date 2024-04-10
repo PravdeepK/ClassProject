@@ -144,7 +144,6 @@ footer {
     flex-direction: column;
 }
 .footer-right {
-    margin-top: -50px;
     display: flex;
     flex-direction: column;
 }

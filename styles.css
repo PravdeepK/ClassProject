@@ -601,7 +601,7 @@ p {
 }
 
 .team-section {
-    background-color: #1A1A1A;
+    background: linear-gradient(180deg, #190518 0%, rgb(25, 5, 24) 100%);
     color: #ffffff;
     text-align: center;
     margin-top: 50px;

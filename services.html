@@ -11,139 +11,214 @@
 </head>
 
 <body>
-<header>
-    <div id="logo">
-        <a href="home.html">
-            <img src="./images/Controller.png" id="logo" alt="controller">
-        </a>
-    </div>
-</header>
-<nav>
-    <ul>
-        <li><a href="home.html">Home</a></li>
-        <li><a href="news.html">News</a></li>
-        <li><a href="store.html">Store</a></li>
-        <li><a href="services.html"class="active">Services</a></li>
-        <li><a href="contact.html">Contact Us</a></li>
-    </ul>
-</nav>
-<main class="services-body">
-    <section class="services-header">
-        <h1>You Can Trust Our Reviews</h1>
-        <p>Since 2008, Games Hub has tested and rated thousands of products to help you make better buying decisions.</p>
-    </section>
-    <div class="stats-container">
-        <div class="stat-item">
-          <img src="./images/Clients.png" alt="Clients">
-          <p>90+ Clients</p>
+    <header>
+        <div id="logo">
+            <a href="home.html">
+                <img src="./images/Controller.png" id="logo" alt="controller">
+            </a>
         </div>
-        <div class="divider"></div>
-        <div class="stat-item">
-          <img src="./images/Countries.png" alt="Countries">
-          <p>30+ Countries</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="store.html">Store</a></li>
+            <li><a href="services.html" class="active">Services</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <main class="services-body">
+        <div class="container_review">
+            <div class="review_title">
+                <h1>You Can Trust Our Reviews</h1>
+                <p>Since 2008, Games Hub has tested and rated tho usands of products <br>to help you make better buying
+                    decisions.</p>
+            </div>
+            <div class="row box_icon">
+                <div class="col 4 line">
+                    <div class="review_circle"><img class="review_icon" src="images/profile.svg">
+                        <div class="review_text">
+                            <p class="review_number">90+</p>
+                            <p style="margin-top: -10px;">Clients</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col 4 line">
+                    <div class="review_circle"><img class="review_icon" src="images/GPS.svg">
+                        <div class="review_text">
+                            <p class="review_number">30+</p>
+                            <p style="margin-top: -10px;">Countries</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col 4">
+                    <div class="review_circle"><img class="review_icon" src="images/Project.svg">
+                        <div class="review_text">
+                            <p class="review_number">50+</p>
+                            <p style="margin-top: -10px;">Projects</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="divider"></div>
-        <div class="stat-item">
-          <img src="./images/Projects.png" alt="Projects">
-          <p>50+ Projects</p>
-        </div>
-    </div>
-    <div class="banner">
-        <h1>Trusted by Thousands of Happy Customer</h1>
-        <p>attributed to our high-quality products or services, excellent customer service, and positive customer ratings and reviews.</p>
-      </div>
+        <div class="feedback">
+            <div class="review_title">
+                <h1>Trusted by Thousands <br> of Happy Customer</h1>
+                <p>attributed to our high-quality products or services, excellent customer <br> service, and positive
+                    customer ratings and reviews.</p>
+            </div>
+            <div class="row">
+                <div class="col 4">
+                    <div class="card_feed">
+                        <div class="cont_feed">
+                            <div><img class="user_photo" src="images/feed1.png"></div>
+                            <div class="name">Viezh Robert <br><span style="font-size: 14px; color: gray;">Warsaw,
+                                    Poland</span>
+                            </div>
+                            <div class="rate">4,5</div>
+                            <div class="star"><img src="images/star.svg"></div>
+                        </div>
+                        <div class="descrip_feed">
+                            <p>The user interface is clean and intuitive, making it easy to navigate through the store
+                                and manage my library. The search and filtering options help me find exactly what I'm
+                                looking for. A well-supported game demonstrates your commitment to quality.
+                            </p>
+                        </div>
+                    </div>
+                </div>
 
-      <div class="team-section">
-        <h2 class="services-teamh2">Our Team</h2>
-        <div class="team-container">
-          <div class="team-member">
-            <img src="./images/Vector (4).png" alt="Pravdeep" class="team-photo">
-            <h3>Pravdeep</h3>
-            <p>Leader</p>
-          </div>
-          <div class="divider"></div>
-    <div class="team-member">
-      <img src="./images/Vector (3).png" alt="Freddy" class="team-photo">
-      <h3>Freddy</h3>
-      <p>Team Member</p>
-    </div>
-    <div class="divider"></div>
-    <div class="team-member">
-      <img src="./images/Vector (2).png" alt="Fan" class="team-photo">
-      <h3>Fan</h3>
-      <p>Team Member</p>
-    </div>
-    <div class="divider"></div>
-    <div class="team-member">
-      <img src="./images/Vector (1).png" alt="Liban" class="team-photo">
-      <h3>Liban</h3>
-      <p>Team Member</p>
-    </div>
-    <div class="divider"></div>
-    <div class="team-member">
-      <img src="./images/Vector.png" alt="Tracy" class="team-photo">
-      <h3>Tracy</h3>
-      <p>Team Member</p>
-    </div>
-  </div>
-</div>
-</div>
-<div class="subscribe-section">
-    <div class="text-container">
-      <h2>Stay in the loop</h2>
-      <p>Subscribe to receive the latest news and updates about games.<br>We promise not to spam you!</p>
-    </div>
-    <form class="subscribe-form">
-      <input type="email" placeholder="Enter email address" required>
-      <button type="submit">Continue</button>
-    </form>
-  </div>
-</main>
-<footer>
-    <div class="footer-flex">
-    <div class="footer-left">
-        <button id="download-app">Download App</button>
-        <div class="payment-methods">
-            <span>Payment methods:</span>
-            <img src="./images/paypal.png" alt="PayPal" class="payment">
-            <img src="images/mastercard.png" alt="MasterCard" class="payment">
-            <img src="images/visa.png" alt="Visa" class="payment">
-        </div>
-    </div>
-    <div class="footer-right">
-        <div class="footer-links">
-            <div class="links-column">
-                <a href="#">About Us</a>
-                <a href="#">Partnerships</a>
-                <a href="#">Careers</a>
-                <a href="#">Branding</a>
-                <a href="#">FAQ</a>
-            </div>
-            <div class="links-column">
-                <a href="#">Facebook</a>
-                <a href="#">Twitter</a>
-                <a href="#">Instagram</a>
-                <a href="#">TikTok</a>
-                <a href="#">Our Discord</a>
-            </div>
-            <div class="links-column">
-                <a href="#">League of Legends</a>
-                <a href="#">Counter-Strike 2</a>
-                <a href="#">VALORANT</a>
-                <a href="#">Teamfight Tactics</a>
-                <a href="#">Apex Legends</a>
+                <div class="col 4">
+                    <div class="card_feed">
+                        <div class="cont_feed">
+                            <div><img class="user_photo" src="images/feed2.png"></div>
+                            <div class="name">Yessica Christy <br><span style="font-size: 14px; color: gray;">Shanxi,
+                                    China</span>
+                            </div>
+                            <div class="rate">4,8</div>
+                            <div class="star"><img src="images/star.svg"></div>
+                        </div>
+                        <div class="descrip_feed">
+                            <p>In terms of reliability and security, Games Hub has generally performed well for me. I've
+                                rarely encountered any major issues with the platform, and the occasional updates and
+                                patches are delivered seamlessly.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col 4">
+                    <div class="card_feed">
+                        <div class="cont_feed">
+                            <div><img class="user_photo" src="images/feed3.png"></div>
+                            <div class="name">Kim Young Jou <br><span style="font-size: 14px; color: gray;">Seoul, South
+                                    Korea</span>
+                            </div>
+                            <div class="rate">4,3</div>
+                            <div class="star"><img src="images/star.svg"></div>
+                        </div>
+                        <div class="descrip_feed">
+                            <p>As a customer, my experience with Steam has been overwhelmingly positive. The platform's
+                                extensive game library, user-friendly interface, and robust community features make it
+                                my go-to destination for all things gaming.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="footer-bottom">
-            <span>© 2024 Group Project. All rights Reserved</span>
+
+        <div class="team-section">
+            <h2 class="services-teamh2">Our Team</h2>
+            <div class="team-container">
+                <div class="team-member">
+                    <img src="./images/Vector (4).png" alt="Pravdeep" class="team-photo">
+                    <h3>Pravdeep</h3>
+                    <p>Leader</p>
+                </div>
+                <div class="divider"></div>
+                <div class="team-member">
+                    <img src="./images/Vector (3).png" alt="Freddy" class="team-photo">
+                    <h3>Freddy</h3>
+                    <p>Team Member</p>
+                </div>
+                <div class="divider"></div>
+                <div class="team-member">
+                    <img src="./images/Vector (2).png" alt="Fan" class="team-photo">
+                    <h3>Fan</h3>
+                    <p>Team Member</p>
+                </div>
+                <div class="divider"></div>
+                <div class="team-member">
+                    <img src="./images/Vector (1).png" alt="Liban" class="team-photo">
+                    <h3>Liban</h3>
+                    <p>Team Member</p>
+                </div>
+                <div class="divider"></div>
+                <div class="team-member">
+                    <img src="./images/Vector.png" alt="Tracy" class="team-photo">
+                    <h3>Tracy</h3>
+                    <p>Team Member</p>
+                </div>
+            </div>
         </div>
-    </div>
-</div>
-</footer>
-<script type="text/javascript" src="index.js"></script>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.9.9/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.7.6/dist/umd/popper.min.js"></script>
+        </div>
+        <div class="subscribe-section">
+            <div class="text-container">
+                <h2>Stay in the loop</h2>
+                <p>Subscribe to receive the latest news and updates about games.<br>We promise not to spam you!</p>
+            </div>
+            <div class="subscribe-form">
+                <form>
+                    <input type="email" placeholder="Enter email address" required>
+                    <button type="submit">Continue</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-flex">
+            <div class="footer-left">
+                <button id="download-app">Download App</button>
+                <div class="payment-methods">
+                    <span>Payment methods:</span>
+                    <img src="./images/paypal.png" alt="PayPal" class="payment">
+                    <img src="images/mastercard.png" alt="MasterCard" class="payment">
+                    <img src="images/visa.png" alt="Visa" class="payment">
+                </div>
+            </div>
+            <div class="footer-right">
+                <div class="footer-links">
+                    <div class="links-column">
+                        <a href="#">About Us</a>
+                        <a href="#">Partnerships</a>
+                        <a href="#">Careers</a>
+                        <a href="#">Branding</a>
+                        <a href="#">FAQ</a>
+                    </div>
+                    <div class="links-column">
+                        <a href="#">Facebook</a>
+                        <a href="#">Twitter</a>
+                        <a href="#">Instagram</a>
+                        <a href="#">TikTok</a>
+                        <a href="#">Our Discord</a>
+                    </div>
+                    <div class="links-column">
+                        <a href="#">League of Legends</a>
+                        <a href="#">Counter-Strike 2</a>
+                        <a href="#">VALORANT</a>
+                        <a href="#">Teamfight Tactics</a>
+                        <a href="#">Apex Legends</a>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <span>© 2024 Group Project. All rights Reserved</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.9.9/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.7.6/dist/umd/popper.min.js"></script>
 </body>
+
 </html>

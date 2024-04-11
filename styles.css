@@ -1,6 +1,6 @@
 /* nav, footer, home page code*/
 
-#welcome-text{
+#welcome-text {
     color: red;
 }
 
@@ -10,64 +10,91 @@
 
 .games-hub-intro {
     background-color: #190518;
-    color: white; /* White text */
-    display: flex; /* Align the children (intro-text and intro-image) side by side */
+    color: white;
+    /* White text */
+    display: flex;
+    /* Align the children (intro-text and intro-image) side by side */
     flex-direction: column;
-    justify-content: space-between; /* Separate the text and image */
-    padding: 50px; /* Padding around the content */
+    justify-content: space-between;
+    /* Separate the text and image */
+    padding: 50px;
+    /* Padding around the content */
     align-items: flex-start;
 }
 
 .intro-text {
-    width: 50%; /* Width of the text container */
-    padding-right: 20px; /* Add some padding between the text and the image */
+    width: 50%;
+    /* Width of the text container */
+    padding-right: 20px;
+    /* Add some padding between the text and the image */
 }
 
 .intro-image {
-    width: 50%; /* Width of the image container */
-    display: flex; /* Use flex to align the image */
-    justify-content: flex-end; /* Align the image to the right */
+    width: 50%;
+    /* Width of the image container */
+    display: flex;
+    /* Use flex to align the image */
+    justify-content: flex-end;
+    /* Align the image to the right */
 }
 
 .controller-image {
-    width: auto; /* Width is set automatically to respect aspect ratio */
-    max-width: 100%; /* Ensure it does not overflow its container */
-    max-height: 400px; /* Maximum height of the image */
+    width: auto;
+    /* Width is set automatically to respect aspect ratio */
+    max-width: 100%;
+    /* Ensure it does not overflow its container */
+    max-height: 400px;
+    /* Maximum height of the image */
 }
 
 
 .games-hub-intro h1 {
-    font-size: 2.5em; /* Large font size for the main title */
-    margin-bottom: 0.5em; /* Space below the title */
+    font-size: 2.5em;
+    /* Large font size for the main title */
+    margin-bottom: 0.5em;
+    /* Space below the title */
 }
 
 .games-hub-intro h2 {
-    font-size: 1.5em; /* Slightly smaller font size for the subtitle */
-    margin-bottom: 1em; /* Space below the subtitle */
+    font-size: 1.5em;
+    /* Slightly smaller font size for the subtitle */
+    margin-bottom: 1em;
+    /* Space below the subtitle */
 }
 
 .games-hub-intro p {
-    font-size: 1em; /* Regular font size for the paragraph */
-    margin-bottom: 1.5em; /* Space below the paragraph */
+    font-size: 1em;
+    /* Regular font size for the paragraph */
+    margin-bottom: 1.5em;
+    /* Space below the paragraph */
 }
 
 .btn-details {
-    background-color: #E53E3E; /* Blue background for the button */
-    color: white; /* White text for the button */
-    padding: 10px 20px; /* Padding inside the button */
-    text-decoration: none; /* Remove underline from the link */
-    border-radius: 5px; /* Rounded corners for the button */
-    display: inline-block; /* Make the link behave like a block to apply padding */
-    font-weight: bold; /* Bold font for the button text */
+    background-color: #E53E3E;
+    /* Blue background for the button */
+    color: white;
+    /* White text for the button */
+    padding: 10px 20px;
+    /* Padding inside the button */
+    text-decoration: none;
+    /* Remove underline from the link */
+    border-radius: 5px;
+    /* Rounded corners for the button */
+    display: inline-block;
+    /* Make the link behave like a block to apply padding */
+    font-weight: bold;
+    /* Bold font for the button text */
 }
 
 .btn-details:hover {
-    background-color: #C53030; /* Darker blue background for the button on hover */
-    transition: background-color 0.3s; /* Smooth transition for the background color */
+    background-color: #C53030;
+    /* Darker blue background for the button on hover */
+    transition: background-color 0.3s;
+    /* Smooth transition for the background color */
 }
 
 header {
-    background-color:#190518;
+    background-color: #190518;
     color: #fff;
     padding: 10px 0;
     text-align: center;
@@ -109,11 +136,13 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    text-decoration: blue; /* Changed from blue to underline */
+    text-decoration: blue;
+    /* Changed from blue to underline */
 }
 
 section {
-    padding: 60px 20px 20px; /* Adjusted padding to accommodate the navigation */
+    padding: 60px 20px 20px;
+    /* Adjusted padding to accommodate the navigation */
     text-align: center;
 }
 
@@ -125,10 +154,11 @@ section {
 }
 
 
-.footer-flex{
+.footer-flex {
     display: flex;
     justify-content: space-between;
 }
+
 footer {
     display: flex;
     background-color: #1A1A1A;
@@ -137,11 +167,11 @@ footer {
     justify-content: space-between;
 }
 
-.footer-left
-{
+.footer-left {
     display: flex;
     flex-direction: column;
 }
+
 .footer-right {
     display: flex;
     flex-direction: column;
@@ -513,11 +543,16 @@ th {
 
 /* Services page CSS */
 
-.services-header h1{
+.services-header h1 {
     color: #FFFFFF
-
 }
-.services-body{
+
+.services-teamh2 {
+    margin-bottom: 30px;
+    padding-top: 30px;
+}
+
+.services-body {
     background: linear-gradient(180deg, #190518 0%, rgb(25, 5, 24) 100%);
 }
 
@@ -527,141 +562,242 @@ th {
     justify-content: center;
     padding: 20px;
     color: white;
-  }
-  
-  .stat-item {
+}
+
+.stat-item {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     margin: 0 20px;
-  }
-  
-  .stat-item img {
-    width: 50px; 
+}
+
+.stat-item img {
+    width: 50px;
     margin-bottom: 10px;
-  }
-  
-  .divider {
-    height: 50px; 
+}
+
+.divider {
+    height: 50px;
     width: 1px;
     background-color: #fff;
     opacity: 0.5;
-  }
-  
-  p {
+}
+
+p {
     margin: 0;
     font-size: 1.2em;
     font-weight: bold;
     color: #FFFFFF
+}
 
-  }
-  .banner {
-    text-align: center;
-    padding: 40px; 
-    color: #FFFFFF; 
-  }
-  
-  body, h2, h3, p {
+body,
+h2,
+h3,
+p {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-  }
-  
-  .team-section {
-    background: linear-gradient(180deg, #190518 0%, rgb(25, 5, 24) 100%);
+}
+
+.team-section {
+    background-color: #1A1A1A;
     color: #ffffff;
     text-align: center;
-    padding: 20px 0;
-  }
-  
-  .team-container {
+    margin-top: 50px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+.team-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
-  }
-  
-  .team-member {
+}
+
+.team-member {
     width: 20%;
-  }
-  
-  .team-photo {
+}
+
+.team-photo {
     width: 40%;
     border-radius: 50%;
     margin-bottom: 10px;
-  }
-  
-  .divider {
-    height: 50%; 
-    width: 1px;
-    opacity: 0.5; 
-  }
-  
-  .team-section,h2 {
-    margin-bottom: 20px; 
-  }
-  
-  h3 {
-    font-size: 1.2em;
-    margin-bottom: 5px; 
-  }
-  
-  p {
-    font-size: 0.9em;
-    opacity: 0.75; 
-  }
+}
 
-  .subscribe-section {
+.divider {
+    height: 50%;
+    width: 1px;
+    opacity: 0.5;
+}
+
+.team-section,
+h2 {
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+p {
+    font-size: 0.9em;
+    opacity: 0.75;
+}
+
+.subscribe-section {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    color: #fff; 
-    padding: 20px;
-  }
-  
-  .text-container {
+    color: #fff;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.text-container {
     text-align: left;
-  }
-  
-  .subscribe-form {
-    display: flex;
+}
+
+.subscribe-form {
     justify-content: center;
     align-items: center;
-  }
-  
-  input[type="email"] {
+}
+
+input[type="email"] {
     padding: 10px;
     border: none;
     outline: none;
-    border-radius: 5px 0 0 5px; 
+    border-radius: 5px 0 0 5px;
     font-size: 1em;
-  }
-  
-  button {
+}
+
+button {
     padding: 10px 20px;
     border: none;
     outline: none;
-    background-color: #E84343; 
-    color: #fff; 
-    border-radius: 0 5px 5px 0; 
+    background-color: #E84343;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
     font-size: 1em;
     cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #C33B3B; 
-  }
-  
-  @media (max-width: 768px) {
+}
+
+button:hover {
+    background-color: #C33B3B;
+}
+
+@media (max-width: 768px) {
     .subscribe-section {
-      flex-direction: column;
+        flex-direction: column;
     }
-  
+
     .text-container {
-      margin-bottom: 20px;
+        margin-bottom: 20px;
     }
-  }
-  
+}
+
+.container_review {
+    color: white;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.review_title {
+    padding-top: 40px;
+    text-align: center;
+    color: white;
+}
+
+.box_icon {
+    display: flex;
+    margin-top: 50px;
+}
+
+.review_circle {
+    display: flex;
+    background-color: white;
+    height: 60px;
+    width: 60px;
+    border-radius: 60px;
+    margin-top: 30px;
+}
+
+.review_icon {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.review_text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.review_number {
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: -10px;
+}
+
+.line {
+    border-right: 2px solid white;
+    margin-right: 70px;
+    height: 130px;
+}
+
+.feedback {
+    margin-top: 60px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.card_feed {
+    width: 410px;
+    border: 2px white solid;
+    border-radius: 20px;
+    padding: 30px 30px;
+    margin-top: 60px;
+}
+
+.cont_feed {
+    display: flex;
+}
+
+.user_photo {
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+}
+
+.name {
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+.rate {
+    font-weight: bolder;
+    padding-left: 80px;
+}
+
+.star {
+    width: 15px;
+    height: 15px;
+    margin-left: 15px;
+}
+
+.descrip_feed {
+    margin-top: 20px;
+    width: 350px;
+}
+
 /* contact US CSS */
 .contact-map {
     font-family: Arial, sans-serif;

@@ -4,12 +4,37 @@
     color: red;
 }
 
-.games-hub-intro {
-    background-color: #190518 ;
-    color: white; /* White text */
-    text-align: left; /* Centered text */
-    padding: 50px 20px; /* Padding around the content */
+#welcome-text {
+    color: red;
 }
+
+.games-hub-intro {
+    background-color: #190518;
+    color: white; /* White text */
+    display: flex; /* Align the children (intro-text and intro-image) side by side */
+    flex-direction: column;
+    justify-content: space-between; /* Separate the text and image */
+    padding: 50px; /* Padding around the content */
+    align-items: flex-start;
+}
+
+.intro-text {
+    width: 50%; /* Width of the text container */
+    padding-right: 20px; /* Add some padding between the text and the image */
+}
+
+.intro-image {
+    width: 50%; /* Width of the image container */
+    display: flex; /* Use flex to align the image */
+    justify-content: flex-end; /* Align the image to the right */
+}
+
+.controller-image {
+    width: auto; /* Width is set automatically to respect aspect ratio */
+    max-width: 100%; /* Ensure it does not overflow its container */
+    max-height: 400px; /* Maximum height of the image */
+}
+
 
 .games-hub-intro h1 {
     font-size: 2.5em; /* Large font size for the main title */

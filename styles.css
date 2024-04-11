@@ -1,8 +1,69 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f0f0f0;
+/* nav, footer, home page code*/
+
+#welcome-text{
+    color: red;
+}
+
+#welcome-text {
+    color: red;
+}
+
+.games-hub-intro {
+    background-color: #190518;
+    color: white; /* White text */
+    display: flex; /* Align the children (intro-text and intro-image) side by side */
+    flex-direction: column;
+    justify-content: space-between; /* Separate the text and image */
+    padding: 50px; /* Padding around the content */
+    align-items: flex-start;
+}
+
+.intro-text {
+    width: 50%; /* Width of the text container */
+    padding-right: 20px; /* Add some padding between the text and the image */
+}
+
+.intro-image {
+    width: 50%; /* Width of the image container */
+    display: flex; /* Use flex to align the image */
+    justify-content: flex-end; /* Align the image to the right */
+}
+
+.controller-image {
+    width: auto; /* Width is set automatically to respect aspect ratio */
+    max-width: 100%; /* Ensure it does not overflow its container */
+    max-height: 400px; /* Maximum height of the image */
+}
+
+
+.games-hub-intro h1 {
+    font-size: 2.5em; /* Large font size for the main title */
+    margin-bottom: 0.5em; /* Space below the title */
+}
+
+.games-hub-intro h2 {
+    font-size: 1.5em; /* Slightly smaller font size for the subtitle */
+    margin-bottom: 1em; /* Space below the subtitle */
+}
+
+.games-hub-intro p {
+    font-size: 1em; /* Regular font size for the paragraph */
+    margin-bottom: 1.5em; /* Space below the paragraph */
+}
+
+.btn-details {
+    background-color: #E53E3E; /* Blue background for the button */
+    color: white; /* White text for the button */
+    padding: 10px 20px; /* Padding inside the button */
+    text-decoration: none; /* Remove underline from the link */
+    border-radius: 5px; /* Rounded corners for the button */
+    display: inline-block; /* Make the link behave like a block to apply padding */
+    font-weight: bold; /* Bold font for the button text */
+}
+
+.btn-details:hover {
+    background-color: #C53030; /* Darker blue background for the button on hover */
+    transition: background-color 0.3s; /* Smooth transition for the background color */
 }
 
 header {
@@ -10,6 +71,13 @@ header {
     color: #fff;
     padding: 10px 0;
     text-align: center;
+}
+
+nav {
+    margin-top: -50px;
+    padding: 10px;
+    top: 0;
+    width: 100%;
 }
 
 nav {

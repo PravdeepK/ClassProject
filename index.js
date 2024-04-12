@@ -71,7 +71,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
     cards.forEach(card => {
         card.addEventListener('click', () => {
             alert('Thanks for your interest!');
-           
         });
     });
 });

@@ -1,11 +1,19 @@
 /* nav, footer, home page code*/
 
-#welcome-text {
-    color: red;
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-family: "Rubik", sans-serif;
 }
 
 #welcome-text {
     color: red;
+    font-weight: bolder;
 }
 
 .games-hub-intro {
@@ -20,6 +28,7 @@
     padding: 50px;
     /* Padding around the content */
     align-items: flex-start;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .intro-text {
@@ -47,7 +56,6 @@
     /* Maximum height of the image */
 }
 
-
 .games-hub-intro h1 {
     font-size: 2.5em;
     /* Large font size for the main title */
@@ -74,7 +82,7 @@
     /* Blue background for the button */
     color: white;
     /* White text for the button */
-    padding: 10px 20px;
+    padding: 10px 30px;
     /* Padding inside the button */
     text-decoration: none;
     /* Remove underline from the link */
@@ -84,6 +92,7 @@
     /* Make the link behave like a block to apply padding */
     font-weight: bold;
     /* Bold font for the button text */
+    border-radius: 40px;
 }
 
 .btn-details:hover {
@@ -193,8 +202,6 @@ footer {
     display: inline-block;
 }
 
-
-
 #download-app:hover {
     background-color: #C53030;
 }
@@ -215,7 +222,6 @@ footer {
     margin-left: 10px;
     display: inline-block;
 }
-
 
 .footer-links {
     display: flex;
@@ -324,6 +330,16 @@ footer {
     width: 60%;
     margin-left: auto;
     margin-right: auto;
+}
+
+.cardBoxUp {
+    display: flex;
+    width: 60%;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    background: black;
     margin-bottom: 50px;
 }
 
@@ -333,12 +349,12 @@ footer {
 
 .title {
     color: white;
-    margin-left: 10px;
     padding-top: 40px;
 }
 
 .marTop-10 {
     margin-top: 10px;
+    width: 300px;
 }
 
 .card-body {
@@ -347,19 +363,19 @@ footer {
 
 .titleUp {
     border-bottom: 2px solid white;
-    width: 280px;
+    width: 380px;
     color: white;
+    padding-top: 30px;
 }
 
 .cardText {
     color: white;
     width: 280px;
+
 }
 
 .imgTour {
-    height: 400px;
-    width: 500px;
-
+    height: 500px;
 }
 
 img {
@@ -416,7 +432,7 @@ img {
     height: auto;
     background-color: rgba(0, 0, 0, 0.832);
     backdrop-filter: blur(10px);
-    padding: 20px 20px;
+    padding: 50px 20px;
     min-height: 250px;
     border-radius: 20px;
     position: absolute;
@@ -601,7 +617,6 @@ p {
 }
 
 .team-section {
-    background: linear-gradient(180deg, #190518 0%, rgb(25, 5, 24) 100%);
     color: #ffffff;
     text-align: center;
     margin-top: 50px;
@@ -609,6 +624,7 @@ p {
     margin-left: auto;
     margin-right: auto;
     border-radius: 20px;
+    padding-bottom: 30px;
 }
 
 .team-container {
@@ -625,6 +641,7 @@ p {
     width: 40%;
     border-radius: 50%;
     margin-bottom: 10px;
+    background: #1A1A1A;
 }
 
 .divider {
@@ -749,6 +766,14 @@ button:hover {
     border-right: 2px solid white;
     margin-right: 70px;
     height: 130px;
+}
+
+@media screen and (max-width: 1200px) {
+    .line {
+        border-right: 2px solid rgba(255, 255, 255, 0);
+        margin-right: 70px;
+        height: 130px;
+    }
 }
 
 .feedback {

@@ -7,16 +7,16 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.slideshow-home{
+.slideshow-home {
     margin-top: 10%;
 }
 
-#release-text{
+#release-text {
     color: white;
     text-align: center;
 }
 
-.home-page{
+.home-page {
     background-color: #190518;
 }
 
@@ -298,7 +298,7 @@ footer {
     background-color: #717171;
 }
 
-#slideshow-dot{
+#slideshow-dot {
     text-align: center;
 }
 
@@ -641,22 +641,6 @@ th {
 }
 
 /* Services page CSS */
-p {
-    margin: 0;
-    font-size: 1.2em;
-    font-weight: bold;
-    color: #FFFFFF
-}
-
-body,
-h2,
-h3,
-p {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-}
-
 
 .services-header h1 {
     color: #FFFFFF

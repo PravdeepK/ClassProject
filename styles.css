@@ -7,6 +7,19 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.slideshow-home{
+    margin-top: 10%;
+}
+
+#release-text{
+    color: white;
+    text-align: center;
+}
+
+.home-page{
+    background-color: #190518;
+}
+
 h1 {
     font-family: "Rubik", sans-serif;
 }

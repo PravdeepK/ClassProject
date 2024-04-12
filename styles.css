@@ -325,6 +325,16 @@ footer {
     }
 }
 
+/* Bottom of home*/
+
+.home-bottom{
+    margin-top: 10%;
+}
+.whyText{
+    text-align: center;
+    color: white;
+}
+
 /* News page styles */
 
 .container-body {

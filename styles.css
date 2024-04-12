@@ -29,21 +29,16 @@
     /* Add some padding between the text and the image */
 }
 
-.intro-image {
-    width: 50%;
-    /* Width of the image container */
-    display: flex;
-    /* Use flex to align the image */
-    justify-content: flex-end;
-    /* Align the image to the right */
-}
 
 .controller-image {
+    margin-top: -35%;
+    margin-left: 65%;
+    display: flex;
     width: auto;
     /* Width is set automatically to respect aspect ratio */
     max-width: 100%;
     /* Ensure it does not overflow its container */
-    max-height: 400px;
+    max-height: 900px;
     /* Maximum height of the image */
 }
 

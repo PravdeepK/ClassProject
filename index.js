@@ -19,9 +19,6 @@ let slideIndex = 0;
             dots[slideIndex - 1].className += " active";
             setTimeout(showSlides, 3500); // Change image every 5 seconds
         }
-
-// News code
-
 // const btn1 = document.getElementById("btn1");
 // const btn2 = document.getElementById("btn2");
 // const btn3 = document.getElementById("btn3");

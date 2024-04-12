@@ -675,35 +675,6 @@ th {
     transition: transform 0.2s; 
 }
 
-.review_icon:active {
-    transform: scale(0.9); 
-    transition: transform 0.1s; 
-}
-
-.card_feed:hover {
-    transform: scale(1.05);
-    transition: transform 0.3s ease-in-out; 
-}
-
-.card_feed:active {
-    transform: scale(0.95); 
-    transition: transform 0.1s; 
-}
-.team-photo:hover {
-    transform: translateY(-10px); 
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
-}
-
-.team-photo:active {
-    transform: translateY(-5px); 
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15); 
-}
-
-.stat-item img {
-    width: 50px;
-    margin-bottom: 10px;
-}
-
 .divider {
     height: 50px;
     width: 1px;
@@ -757,7 +728,7 @@ th {
     width: 40%;
     border-radius: 50%;
     margin-bottom: 10px;
-    background: #EA103C;
+    background: #1A1A1A;
 }
 .team-member {
     transition: transform 0.3s ease, box-shadow 0.3s ease; 

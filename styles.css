@@ -692,13 +692,21 @@ p {
     margin-bottom: 10px;
 }
 
-.backTeam {
-    background-color: #1A1A1A;
 .divider {
     height: 50px;
     width: 1px;
     background-color: #fff;
     opacity: 0.5;
+}
+
+.review_icon:hover {
+    transform: scale(1.1); 
+    transition: transform 0.2s; 
+}
+
+.review_icon:active {
+    transform: scale(0.9); 
+    transition: transform 0.1s; 
 }
 
 
@@ -712,35 +720,32 @@ p {
     transition: transform 0.1s; 
 }
 
-.padTop-30 {
-    padding-top: 30px;
-}
-
-.padBottom-30 {
-    padding-bottom: 30px;
-}
-
-.marTop-30 {
-    margin-top: 30px;
-}
-
-.padTop-30 {
-    padding-top: 30px;
-}
-
-.padBottom-30 {
-    padding-bottom: 30px;
-}
-
-.center {
+.team-section {
+    color: #ffffff;
     text-align: center;
-    color: white;
+    margin-top: 50px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    padding-bottom: 30px;
+}
+
+.team-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.team-member {
+    width: 20%;
 }
 
 .team-photo {
     width: 40%;
     border-radius: 50%;
     margin-bottom: 10px;
+    background: #1A1A1A;
 }
 .team-member {
     transition: transform 0.3s ease, box-shadow 0.3s ease; 
@@ -810,14 +815,9 @@ button {
     outline: none;
     background-color: #E84343;
     color: #fff;
+    border-radius: 0 5px 5px 0;
     font-size: 1em;
     cursor: pointer;
-
-}
-
-.submitBtn {
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
 }
 
 button:hover {
@@ -876,16 +876,9 @@ button:hover {
 }
 
 .review_number {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     font-size: 30px;
     margin-top: -10px;
-}
-
-.generalFont {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: lighter;
-    font-size: 16px;
 }
 
 .line {
@@ -929,24 +922,19 @@ button:hover {
 }
 
 .name {
-    width: 250px;
     font-size: 18px;
     padding-left: 20px;
 }
 
 .rate {
     font-weight: bolder;
+    padding-left: 80px;
 }
 
 .star {
     width: 15px;
     height: 15px;
     margin-left: 15px;
-}
-
-.iconStar {
-    width: 100%;
-    height: 100%;
 }
 
 .descrip_feed {

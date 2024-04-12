@@ -1,8 +1,7 @@
 
-# GroupProject
-# Games Hub Website
+# GroupProject: Games Hub Website
 
-## Contribution Guideline:
+## Team Members & Amazing Works:
 
 Figma:
 - Fan Zhu
@@ -14,7 +13,7 @@ Github/Coding:
 - Freddy Kawanishi
 
 ## Project Overview
-This website designed for Games Hub, a platform to connecting gaming enthusiasts worldwide. The website comes with different sections, including Games News, New Releases,Online Game Store, Games Events,Customer Services, and Contact Form. Our mission is to provide the latest games, news, and updates in a user-friendly and a pleasing web layout.
+This website designed for Games Hub, a platform to connecting gaming enthusiasts worldwide. The website comes with different sections, including Games News,sections of New Releases,Online Game Store, upcoming Events,Customer Services,Contact Form and more. Our mission is to provide the latest games, news, and updates in a user-friendly and a pleasing web layout, customers also can purchase games and explore online.
 
 ## Design
 The website's design was using Figma, To access the design files:
@@ -35,13 +34,19 @@ The website's design was using Figma, To access the design files:
 
 ## Setup and Running the Project
 
-To get the Games Hub website running locally on your machine:
+To get the Games Hub website running locally on your machine, follow there steps:
+- Clone the GitHub repository to your local machine using:https://github.com/PravdeepKullarSectionC/GroupProject
+- Due to this project uses Bootstrap served, please make sure you have an active internet connection.
+- Open the "home.html" file in a web browser to view the homepage.
+- Explore other pages by clicking news/services/store/contact US links in the navigation bar.
 
-## Contributing
-We value contributions and design feedback. Here's how to contribute:
+## Contribution Guideline:
+### We value contributions and design feedback. 
+Here's how to contribute:
 
-Figma Designs: Provide suggestions or improvements to the Figma designs.
-Development:
+### Figma Designs: 
+Provide suggestions or improvements to the Figma designs.
+### Development:
 Fork the repository.
 Create a feature branch (git checkout -b feature-branch).
 Make and commit your changes (git commit -am 'Add some feature').

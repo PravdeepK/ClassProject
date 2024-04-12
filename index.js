@@ -43,9 +43,10 @@ function close2() {
 function close3() {
     document.getElementById("pop3").style.display = "none"
 }
+// services page code
 
-//contact code
 
+//contact us code
 function validateEmail() {
     var email = document.getElementById("email").value;
     var pattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;

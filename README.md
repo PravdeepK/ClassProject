@@ -68,4 +68,10 @@ To get the Games Hub website running locally, follow steps:
 - images/: Directory containing all the images used in the website.
 - README.md: This file, containing documentation for the project.
 
+## FAQs
+If you have any common questions or issues, please refer to this section or let us know.
 
+## Coding Language:
+- HTML5
+- CSS
+- JavaScript

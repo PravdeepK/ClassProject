@@ -542,6 +542,22 @@ th {
 }
 
 /* Services page CSS */
+p {
+    margin: 0;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #FFFFFF
+}
+
+body,
+h2,
+h3,
+p {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
 
 .services-header h1 {
     color: #FFFFFF
@@ -584,20 +600,15 @@ th {
     opacity: 0.5;
 }
 
-p {
-    margin: 0;
-    font-size: 1.2em;
-    font-weight: bold;
-    color: #FFFFFF
+
+.card_feed:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out; 
 }
 
-body,
-h2,
-h3,
-p {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
+.card_feed:active {
+    transform: scale(0.95); 
+    transition: transform 0.1s; 
 }
 
 .team-section {
@@ -626,6 +637,21 @@ p {
     border-radius: 50%;
     margin-bottom: 10px;
 }
+.team-member {
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    cursor: pointer; 
+}
+
+.team-member:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
+}
+
+.team-member:active {
+    transform: translateY(-5px); 
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15); 
+}
+
 
 .divider {
     height: 50%;

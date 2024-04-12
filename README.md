@@ -12,8 +12,6 @@ Github/Coding:
 - Pravdeep Kullar
 - Fan Zhu
 - Freddy Kawanishi
-- Liban Abdulle
-- Tracy Mcgrady
 
 ## Project Overview
 This website designed for Games Hub, a platform to connecting gaming enthusiasts worldwide. The website comes with different sections, including Games News, New Releases,Online Game Store, Games Events,Customer Services, and Contact Form. Our mission is to provide the latest games, news, and updates in a user-friendly and a pleasing web layout.

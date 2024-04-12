@@ -64,6 +64,17 @@ function close3() {
     document.getElementById("pop3").style.display = "none"
 }
 // services page code
+document.addEventListener('DOMContentLoaded', (event) => {
+
+    const cards = document.querySelectorAll('.card_feed');
+
+    cards.forEach(card => {
+        card.addEventListener('click', () => {
+            alert('Thanks for your interest!');
+           
+        });
+    });
+});
 
 
 //contact us code

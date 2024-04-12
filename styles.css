@@ -1045,3 +1045,20 @@ button:hover {
     background-color: #cc0055;
     cursor: pointer;
 }
+
+
+
+/* Store css*/
+
+.store{
+    background-color: #190518;
+}
+
+.store-main{
+    margin-top: 5%;
+}
+
+.store-title{
+    color: white;
+    text-align: center;
+}

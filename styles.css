@@ -327,6 +327,17 @@ footer {
 
 /* Bottom of home*/
 
+.home-images{
+    width: 10%;
+    height: 10%;
+}
+
+.home-icons{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .home-bottom{
     margin-top: 10%;
 }

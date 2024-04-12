@@ -565,6 +565,22 @@ th {
 }
 
 /* Services page CSS */
+p {
+    margin: 0;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #FFFFFF
+}
+
+body,
+h2,
+h3,
+p {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
 
 .services-header h1 {
     color: #FFFFFF
@@ -602,7 +618,30 @@ th {
 
 .backTeam {
     background-color: #1A1A1A;
-    border-radius: 20px;
+.divider {
+    height: 50px;
+    width: 1px;
+    background-color: #fff;
+    opacity: 0.5;
+}
+
+
+.card_feed:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out; 
+}
+
+.card_feed:active {
+    transform: scale(0.95); 
+    transition: transform 0.1s; 
+}
+
+.padTop-30 {
+    padding-top: 30px;
+}
+
+.padBottom-30 {
+    padding-bottom: 30px;
 }
 
 .marTop-30 {
@@ -623,11 +662,45 @@ th {
 }
 
 .team-photo {
-    width: 100px;
-    height: 100px;
-    border-radius: 100px;
-    background-color: #EA103C;
-    margin-top: 30px;
+    width: 40%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.team-member {
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    cursor: pointer; 
+}
+
+.team-member:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
+}
+
+.team-member:active {
+    transform: translateY(-5px); 
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15); 
+}
+
+
+.divider {
+    height: 50%;
+    width: 1px;
+    opacity: 0.5;
+}
+
+.team-section,
+h2 {
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+p {
+    font-size: 0.9em;
+    opacity: 0.75;
 }
 
 .subscribe-section {

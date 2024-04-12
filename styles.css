@@ -31,16 +31,11 @@ h1 {
 
 .games-hub-intro {
     color: white;
-    /* White text */
     display: flex;
-    /* Align the children (intro-text and intro-image) side by side */
     flex-direction: column;
     justify-content: space-between;
-    /* Separate the text and image */
     padding: 50px;
-    /* Padding around the content */
     align-items: flex-start;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .intro-text {

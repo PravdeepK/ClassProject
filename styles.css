@@ -11,6 +11,10 @@ h1 {
     font-family: "Rubik", sans-serif;
 }
 
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 #welcome-text {
     color: red;
     font-weight: bolder;
@@ -261,7 +265,7 @@ footer {
 }
 
 .subTitle {
-    font-size: 1.2rem;
+    font-size: 16px;
 }
 
 .row {
@@ -350,11 +354,11 @@ footer {
 .title {
     color: white;
     padding-top: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .marTop-10 {
     margin-top: 10px;
-    width: 300px;
 }
 
 .card-body {
@@ -370,8 +374,7 @@ footer {
 
 .cardText {
     color: white;
-    width: 280px;
-
+    width: 300px;
 }
 
 .imgTour {
@@ -396,7 +399,7 @@ img {
 }
 
 .alldBtn:hover {
-    background-color: grey;
+    background-color: #C33B3B;
 }
 
 .readBtn {
@@ -412,7 +415,7 @@ img {
 }
 
 .readBtn:hover {
-    background-color: grey;
+    background-color: #C33B3B;
 }
 
 .icon {
@@ -441,6 +444,10 @@ img {
     color: white;
     display: none;
     z-index: 999;
+}
+
+.textNews {
+    padding: 50px 50px;
 }
 
 #closepop1 {
@@ -593,76 +600,34 @@ th {
     margin-bottom: 10px;
 }
 
-.divider {
-    height: 50px;
-    width: 1px;
-    background-color: #fff;
-    opacity: 0.5;
-}
-
-p {
-    margin: 0;
-    font-size: 1.2em;
-    font-weight: bold;
-    color: #FFFFFF
-}
-
-body,
-h2,
-h3,
-p {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-}
-
-.team-section {
-    color: #ffffff;
-    text-align: center;
-    margin-top: 50px;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
+.backTeam {
+    background-color: #1A1A1A;
     border-radius: 20px;
+}
+
+.marTop-30 {
+    margin-top: 30px;
+}
+
+.padTop-30 {
+    padding-top: 30px;
+}
+
+.padBottom-30 {
     padding-bottom: 30px;
 }
 
-.team-container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.team-member {
-    width: 20%;
+.center {
+    text-align: center;
+    color: white;
 }
 
 .team-photo {
-    width: 40%;
-    border-radius: 50%;
-    margin-bottom: 10px;
-    background: #1A1A1A;
-}
-
-.divider {
-    height: 50%;
-    width: 1px;
-    opacity: 0.5;
-}
-
-.team-section,
-h2 {
-    margin-bottom: 20px;
-}
-
-h3 {
-    font-size: 1.2em;
-    margin-bottom: 5px;
-}
-
-p {
-    font-size: 0.9em;
-    opacity: 0.75;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background-color: #EA103C;
+    margin-top: 30px;
 }
 
 .subscribe-section {
@@ -696,9 +661,14 @@ button {
     outline: none;
     background-color: #E84343;
     color: #fff;
-    border-radius: 0 5px 5px 0;
     font-size: 1em;
     cursor: pointer;
+
+}
+
+.submitBtn {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 button:hover {
@@ -757,9 +727,16 @@ button:hover {
 }
 
 .review_number {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     font-size: 30px;
     margin-top: -10px;
+}
+
+.generalFont {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    font-size: 16px;
 }
 
 .line {
@@ -803,19 +780,24 @@ button:hover {
 }
 
 .name {
+    width: 250px;
     font-size: 18px;
     padding-left: 20px;
 }
 
 .rate {
     font-weight: bolder;
-    padding-left: 80px;
 }
 
 .star {
     width: 15px;
     height: 15px;
     margin-left: 15px;
+}
+
+.iconStar {
+    width: 100%;
+    height: 100%;
 }
 
 .descrip_feed {

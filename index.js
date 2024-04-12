@@ -1,8 +1,4 @@
 document.addEventListener('DOMContentLoaded', (event) => {
-    // Start the slideshow
-    showSlides();
-
-    // Modal pop-up handlers
     const btn1 = document.getElementById("btn1");
     const btn2 = document.getElementById("btn2");
     const btn3 = document.getElementById("btn3");
@@ -62,18 +58,27 @@ function showSlides() {
     let i;
     let slides = document.getElementsByClassName("mySlides");
     let dots = document.getElementsByClassName("dot");
-    if (!slides.length || !dots.length) return;
-
+    // Hide all slides
     for (i = 0; i < slides.length; i++) {
         slides[i].style.display = "none";
     }
-    slideIndex++;
-    if (slideIndex > slides.length) { slideIndex = 1; }
-    slides[slideIndex - 1].style.display = "block";
 
+    // Increment slideIndex, reset if it exceeds the number of slides
+    slideIndex++;
+    if (slideIndex > slides.length) slideIndex = 1;
+
+    // Display the current slide and highlight the corresponding dot
+    slides[slideIndex - 1].style.display = "block";
     for (i = 0; i < dots.length; i++) {
         dots[i].className = dots[i].className.replace(" active", "");
     }
     dots[slideIndex - 1].className += " active";
+
+    // Schedule the next transition
     setTimeout(showSlides, 3500);
 }
+window.onload = function () {
+    showSlides();
+};
+
+

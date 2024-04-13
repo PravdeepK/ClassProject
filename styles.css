@@ -327,38 +327,44 @@ footer {
 
 /* Bottom of home*/
 
-.icon-text2{
+.icon-text2 {
     text-align: center;
     color: white;
 }
 
-.icon-text{
+.icon-text {
     margin-bottom: 5%;
     padding: 2%;
     display: flex;
     justify-content: space-evenly;
 }
 
-.home-images{
+.home-images {
     width: 10%;
     height: 10%;
 }
 
-.home-icons{
+.home-icons {
     margin-top: 5%;
     display: flex;
     justify-content: space-evenly;
 }
 
-.home-bottom{
+.home-bottom {
     margin-top: 10%;
 }
-.whyText{
+
+.whyText {
     text-align: center;
     color: white;
 }
 
 /* News page styles */
+
+.generalFont {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5rem;
+}
 
 .container-body {
     background: linear-gradient(180deg, #190518 0%, rgb(25, 5, 24) 100%);
@@ -703,9 +709,10 @@ th {
     flex-direction: column;
     margin: 0 20px;
 }
+
 .review_icon:hover {
-    transform: scale(1.1); 
-    transition: transform 0.2s; 
+    transform: scale(1.1);
+    transition: transform 0.2s;
 }
 
 .divider {
@@ -716,24 +723,24 @@ th {
 }
 
 .review_icon:hover {
-    transform: scale(1.1); 
-    transition: transform 0.2s; 
+    transform: scale(1.1);
+    transition: transform 0.2s;
 }
 
 .review_icon:active {
-    transform: scale(0.9); 
-    transition: transform 0.1s; 
+    transform: scale(0.9);
+    transition: transform 0.1s;
 }
 
 
 .card_feed:hover {
     transform: scale(1.05);
-    transition: transform 0.3s ease-in-out; 
+    transition: transform 0.3s ease-in-out;
 }
 
 .card_feed:active {
-    transform: scale(0.95); 
-    transition: transform 0.1s; 
+    transform: scale(0.95);
+    transition: transform 0.1s;
 }
 
 .team-section {
@@ -763,19 +770,20 @@ th {
     margin-bottom: 10px;
     background: #EA103C;
 }
+
 .team-member {
-    transition: transform 0.3s ease, box-shadow 0.3s ease; 
-    cursor: pointer; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
 }
 
 .team-member:hover {
-    transform: translateY(-10px); 
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .team-member:active {
-    transform: translateY(-5px); 
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15); 
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
 }
 
 
@@ -797,7 +805,6 @@ h3 {
 
 p {
     font-size: 0.9em;
-    opacity: 0.75;
 }
 
 .subscribe-section {
@@ -929,6 +936,7 @@ button:hover {
 
 .cont_feed {
     display: flex;
+    width: 410px;
 }
 
 .user_photo {

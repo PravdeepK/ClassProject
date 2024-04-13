@@ -1105,3 +1105,9 @@ button:hover {
 .card-body {
     padding: 10px;
 }
+
+@media (max-width: 767.98px) {
+    .row {
+        margin-top: 20px;
+    }
+}

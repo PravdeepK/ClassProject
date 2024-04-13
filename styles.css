@@ -1096,3 +1096,12 @@ button:hover {
     color: white;
     text-align: center;
 }
+
+.card-img-top {
+    width: 100%;
+    height: 497px;
+    object-fit: cover;
+}
+.card-body {
+    padding: 10px;
+}

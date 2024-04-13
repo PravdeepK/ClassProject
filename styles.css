@@ -1087,3 +1087,35 @@ button:hover {
     background-color: #cc0055;
     cursor: pointer;
 }
+
+
+
+/* Store css*/
+
+.store{
+    background-color: #190518;
+}
+
+.store-main{
+    margin-top: 5%;
+}
+
+.store-title{
+    color: white;
+    text-align: center;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 497px;
+    object-fit: cover;
+}
+.card-body {
+    padding: 10px;
+}
+
+@media (max-width: 767.98px) {
+    .row {
+        margin-top: 20px;
+    }
+}

@@ -37,3 +37,12 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    const subscribeForm = document.getElementById('subscribeForm');
+
+    subscribeForm.addEventListener('submit', function(event) {
+        event.preventDefault();  
+        alert("Thanks! Your Submission successful!"); 
+});
+});

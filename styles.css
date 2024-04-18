@@ -161,13 +161,11 @@ section {
     text-align: center;
 }
 
-
 #logo {
     width: 20%;
     height: 20%;
     margin-left: -5%;
 }
-
 
 .footer-flex {
     display: flex;
@@ -185,11 +183,15 @@ footer {
 .footer-left {
     display: flex;
     flex-direction: column;
+    margin-left: 150px;
+    margin-top: 15px;
 }
 
 .footer-right {
     display: flex;
     flex-direction: column;
+    margin-right: 150px;
+    margin-top: 30px;
 }
 
 #download-app {
@@ -220,6 +222,7 @@ footer {
 
 .payment-methods span {
     margin-right: 10px;
+    margin-top: 50px;
 }
 
 .payment {
@@ -227,6 +230,11 @@ footer {
     height: auto;
     margin-left: 10px;
     display: inline-block;
+    margin-top: 50px;
+}
+
+#download-app {
+    margin-top: 30px;
 }
 
 .footer-links {
@@ -235,10 +243,18 @@ footer {
 }
 
 .links-column {
-    margin-right: 20px;
+    padding-left: 150px;
+    margin-bottom: 50px;
 }
 
-.links-column a {
+.footer-right .footer-links .links-column a {
+    display: block;
+    color: grey;
+    text-decoration: none;
+    margin: 5px 0;
+}
+
+.footer-right .footer-links .links-column a:hover {
     display: block;
     color: white;
     text-decoration: none;
@@ -246,8 +262,9 @@ footer {
 }
 
 .footer-bottom {
-    text-align: right;
+    text-align: center;
     margin-top: 20px;
+    color: grey;
 }
 
 /* slideshow */

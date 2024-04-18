@@ -25,6 +25,18 @@
         <li><a href="services.html">Services</a></li>
         <li><a href="contact.html">Contact Us</a></li>
     </ul>
+
+    <div class="search-container">
+        <form id="search-form">
+            <input type="text" id="search-input" placeholder="Enter your search query">
+            <button type="submit">Search</button>
+        </form>
+    </div>
+    <div id="search-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="search-results"></div>
+        </div>
 </nav>
 
 <body>
@@ -147,6 +159,7 @@
 </footer>
 
 <script type="text/javascript" src="index.js"></script>
+<script type="text/javascript" src="searchapi.js"></script>
 
 </body>
 

@@ -1,16 +1,90 @@
 /* nav, footer, home page code*/
 
+#search-form{
+    float: right;
+}
+
+#search-results {
+    max-height: 400px;
+    overflow-y: auto;
+    margin-top: 20px;
+}
+
+/* Styles for the search modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+footer {
+    z-index: 10;
+    position: relative;
+}
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 .slideshow-home {
     margin-top: 10%;
 }
-
+.gaming-store.card-body{
+    padding: 10px;
+    height: 8em;
+    padding: 10px;
+}
+.img.seling-games.card-img-top{
+    height: 15em;
+}
+.store-games.card{
+    display: grid;
+}
+.store-main {
+    margin-bottom: 150px;
+    overflow: hidden;
+  }
+  @media (max-width: 768px) {
+    .store-main {
+      margin-bottom: 200px;
+    }
+  }
 #release-text {
     color: white;
     text-align: center;
@@ -44,9 +118,7 @@ h3 {
 
 .intro-text {
     width: 50%;
-    /* Width of the text container */
     padding-right: 20px;
-    /* Add some padding between the text and the image */
 }
 
 
@@ -55,32 +127,23 @@ h3 {
     margin-left: 65%;
     display: flex;
     width: auto;
-    /* Width is set automatically to respect aspect ratio */
     max-width: 100%;
-    /* Ensure it does not overflow its container */
     max-height: 900px;
-    /* Maximum height of the image */
 }
 
 .games-hub-intro h1 {
     font-size: 2.5em;
-    /* Large font size for the main title */
     margin-bottom: 0.5em;
-    /* Space below the title */
 }
 
 .games-hub-intro h2 {
     font-size: 1.5em;
-    /* Slightly smaller font size for the subtitle */
     margin-bottom: 1em;
-    /* Space below the subtitle */
 }
 
 .games-hub-intro p {
     font-size: 1em;
-    /* Regular font size for the paragraph */
     margin-bottom: 1.5em;
-    /* Space below the paragraph */
 }
 
 .btn-details {
@@ -1127,23 +1190,23 @@ button:hover {
 
 /* Store css*/
 
-.store {
+.store{
     background-color: #190518;
 }
 
-.store-main {
+.store-main{
     margin-top: 5%;
 }
 
-.store-title {
+.store-title{
     color: white;
     text-align: center;
 }
 
-.card-img-top {
-    width: 100%;
-    height: 497px;
-    object-fit: cover;
+.carousel-img {
+    max-height: 500px;
+    max-width: 2px;
+    margin: 0 auto;
 }
 
 @media (max-width: 767.98px) {

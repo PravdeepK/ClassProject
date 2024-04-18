@@ -237,13 +237,11 @@ section {
     text-align: center;
 }
 
-
 #logo {
     width: 20%;
     height: 20%;
     margin-left: -5%;
 }
-
 
 .footer-flex {
     display: flex;
@@ -261,11 +259,15 @@ footer {
 .footer-left {
     display: flex;
     flex-direction: column;
+    margin-left: 150px;
+    margin-top: 15px;
 }
 
 .footer-right {
     display: flex;
     flex-direction: column;
+    margin-right: 150px;
+    margin-top: 30px;
 }
 
 #download-app {
@@ -296,6 +298,7 @@ footer {
 
 .payment-methods span {
     margin-right: 10px;
+    margin-top: 50px;
 }
 
 .payment {
@@ -303,6 +306,11 @@ footer {
     height: auto;
     margin-left: 10px;
     display: inline-block;
+    margin-top: 50px;
+}
+
+#download-app {
+    margin-top: 30px;
 }
 
 .footer-links {
@@ -311,10 +319,18 @@ footer {
 }
 
 .links-column {
-    margin-right: 20px;
+    padding-left: 150px;
+    margin-bottom: 50px;
 }
 
-.links-column a {
+.footer-right .footer-links .links-column a {
+    display: block;
+    color: grey;
+    text-decoration: none;
+    margin: 5px 0;
+}
+
+.footer-right .footer-links .links-column a:hover {
     display: block;
     color: white;
     text-decoration: none;
@@ -322,8 +338,9 @@ footer {
 }
 
 .footer-bottom {
-    text-align: right;
+    text-align: center;
     margin-top: 20px;
+    color: grey;
 }
 
 /* slideshow */
@@ -542,6 +559,11 @@ footer {
     background: linear-gradient(180deg, #190518 0%, rgb(25, 5, 24) 100%);
 }
 
+.card-img-event {
+    width: 100%;
+    height: 100%;
+}
+
 .title {
     color: white;
     padding-top: 40px;
@@ -631,7 +653,7 @@ img {
     border-radius: 20px;
     position: absolute;
     left: 60;
-    top: 90%;
+    top: 80%;
     color: white;
     display: none;
     z-index: 999;
@@ -807,41 +829,47 @@ th {
     transform: scale(0.9);
     transition: transform 0.1s;
 }
+
 .review_icon {
-	-webkit-animation: pulsate-fwd 0.5s ease-in-out infinite both;
-	        animation: pulsate-fwd 0.5s ease-in-out infinite both;
+    -webkit-animation: pulsate-fwd 0.5s ease-in-out infinite both;
+    animation: pulsate-fwd 0.5s ease-in-out infinite both;
 }
 
- @-webkit-keyframes pulsate-fwd {
+@-webkit-keyframes pulsate-fwd {
     0% {
-      -webkit-transform: scale(1);
-              transform: scale(1);
+        -webkit-transform: scale(1);
+        transform: scale(1);
     }
+
     50% {
-      -webkit-transform: scale(1.1);
-              transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
     }
+
     100% {
-      -webkit-transform: scale(1);
-              transform: scale(1);
+        -webkit-transform: scale(1);
+        transform: scale(1);
     }
-  }
-  @keyframes pulsate-fwd {
+}
+
+@keyframes pulsate-fwd {
     0% {
-      -webkit-transform: scale(1);
-              transform: scale(1);
+        -webkit-transform: scale(1);
+        transform: scale(1);
     }
+
     50% {
-      -webkit-transform: scale(1.1);
-              transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
     }
+
     100% {
-      -webkit-transform: scale(1);
-              transform: scale(1);
+        -webkit-transform: scale(1);
+        transform: scale(1);
     }
-  }
-  
-  
+}
+
+
 
 .card_feed:hover {
     transform: scale(1.05);
@@ -862,6 +890,7 @@ th {
     margin-right: auto;
     border-radius: 20px;
     padding-bottom: 30px;
+    width: 80%;
 }
 
 .team-container {
@@ -874,8 +903,14 @@ th {
     width: 20%;
 }
 
+.team-member img {
+    width: 100px;
+    height: 100px;
+}
+
 .team-photo {
-    width: 40%;
+    width: 100%;
+    height: 100%;
     border-radius: 50%;
     margin-bottom: 10px;
     background: #EA103C;
@@ -1168,15 +1203,15 @@ button:hover {
 
 /* Store css*/
 
-.store{
+.store {
     background-color: #190518;
 }
 
-.store-main{
+.store-main {
     margin-top: 5%;
 }
 
-.store-title{
+.store-title {
     color: white;
     text-align: center;
 }

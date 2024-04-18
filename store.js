@@ -50,37 +50,28 @@ function displayGames(games) {
 
 document.addEventListener('DOMContentLoaded', fetchGameData);;
 
-// Get references to HTML elements
 const searchForm = document.getElementById('search-form');
 const searchInput = document.getElementById('search-input');
 const searchModal = document.getElementById('search-modal');
 const searchResultsDiv = document.getElementById('search-results');
 
-// Add event listener for form submission
 searchForm.addEventListener('submit', function(event) {
     event.preventDefault();
-    
-    // Get search query
     const query = searchInput.value.trim();
 
-    // If query is empty, do nothing
     if (!query) {
         return;
     }
 
-    // Construct API request URL (replace with your API key and search engine ID)
     const apiKey = 'AIzaSyCaqdE2CLTQfitLXucrImkgqnTf5W6c2s0';
     const cx = '5796be78c465c4f70';
     const apiUrl = `https://www.googleapis.com/customsearch/v1?key=${apiKey}&cx=${cx}&q=${encodeURIComponent(query)}`;
 
-    // Make API request
     fetch(apiUrl)
         .then(response => response.json())
         .then(data => {
-            // Clear previous search results
             searchResultsDiv.innerHTML = '';
 
-            // Display search results
             if (data.items && data.items.length > 0) {
                 data.items.forEach(item => {
                     const resultDiv = document.createElement('div');
@@ -92,7 +83,6 @@ searchForm.addEventListener('submit', function(event) {
                     searchResultsDiv.appendChild(resultDiv);
                 });
 
-                // Show the search modal
                 searchModal.style.display = 'block';
             } else {
                 // No search results found

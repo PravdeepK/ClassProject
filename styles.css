@@ -1,5 +1,10 @@
 /* nav, footer, home page code*/
 
+#search-button{
+    padding: 2px 15px;
+    border-radius: 2.5px;
+}
+
 #search-form{
     float: right;
 }

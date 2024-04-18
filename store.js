@@ -45,7 +45,7 @@ function displayGames(games) {
         row.appendChild(card);
     });
 
-    container.appendChild(row); 
+    container.appendChild(row);
 }
 
 document.addEventListener('DOMContentLoaded', fetchGameData);;

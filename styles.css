@@ -1,5 +1,15 @@
 /* nav, footer, home page code*/
 
+#search-button{
+    padding: 2px 15px;
+    border-radius: 2.5px;
+}
+
+#search-button:hover {
+    background-color: #C53030;
+    transition: background-color 1s;
+}
+
 #search-form{
     float: right;
 }
@@ -148,27 +158,19 @@ h3 {
 
 .btn-details {
     background-color: #E53E3E;
-    /* Blue background for the button */
     color: white;
-    /* White text for the button */
     padding: 10px 30px;
-    /* Padding inside the button */
     text-decoration: none;
-    /* Remove underline from the link */
     border-radius: 5px;
     /* Rounded corners for the button */
     display: inline-block;
-    /* Make the link behave like a block to apply padding */
     font-weight: bold;
-    /* Bold font for the button text */
     border-radius: 40px;
 }
 
 .btn-details:hover {
     background-color: #C53030;
-    /* Darker blue background for the button on hover */
     transition: background-color 0.3s;
-    /* Smooth transition for the background color */
 }
 
 header {
@@ -220,7 +222,6 @@ nav ul li a:hover {
 
 section {
     padding: 60px 20px 20px;
-    /* Adjusted padding to accommodate the navigation */
     text-align: center;
 }
 

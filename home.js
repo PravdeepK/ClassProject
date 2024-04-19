@@ -1,5 +1,3 @@
-// home code
-
 let slideIndex = 0;
         showSlides();
 
